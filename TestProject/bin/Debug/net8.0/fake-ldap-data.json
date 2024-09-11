@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "sAMAccountName": "jdoe",
+      "givenName": "John",
+      "sn": "Doe",
+      "displayName": "John Doe",
+      "title": "Software Engineer"
+    },
+    {
+      "sAMAccountName": "asmith",
+      "givenName": "Alice",
+      "sn": "Smith",
+      "displayName": "Alice Smith",
+      "title": "Product Manager"
+    }
+  ]
+}

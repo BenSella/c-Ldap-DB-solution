@@ -1,0 +1,6 @@
+@ActiveDirectioryCommunication_HostAddress = http://localhost:5239
+
+GET {{ActiveDirectioryCommunication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
