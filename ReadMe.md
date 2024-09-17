@@ -28,7 +28,7 @@ asynchronous programming to ensure that connections and queries do not block the
    - 
 # Architecture Overview:
 ```bash
-# ActiveDirectioryCommunication
+
 ElasticSearchSolution/ 
 ├── Controller/ 
 │ └── SimpleElasticTestController.cs # Contains API endpoints for indexing, retrieving, and searching documents in Elasticsearch 
