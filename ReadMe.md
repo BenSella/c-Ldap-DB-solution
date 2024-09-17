@@ -1,5 +1,3 @@
-# In gitHub opne file using Code or Blame, not preview
-
 #project_description 
 #Project: Active Directory Communication via LDAP in C#
 
@@ -10,24 +8,6 @@ information such as user data or checking if an account is disabled or enabled.
 The project is modular and divided into various classes and interfaces to make it scalable and reusable. 
 It includes services for establishing LDAP connections, sending queries, and extracting data. The focus is on 
 asynchronous programming to ensure that connections and queries do not block the main thread.
-
----
-
-## Architecture Overview:
-
-### ActiveDirectioryCommunication
-ElasticSearchSolution/ 
-├── Controller/ 
-│ └── SimpleElasticTestController.cs # Contains API endpoints for indexing, retrieving, and searching documents in Elasticsearch 
-├── HealthTest/ 
-│ └── ElasticHealthCheck.cs # Health check for Elasticsearch connection 
-├── Utils/ 
-│ ├── Interfaces/ 
-│ │ └── IElasticsearchClient.cs # Interface defining methods for Elasticsearch operations 
-│ └── ElasticsearchClient.cs # Implementation of the Elasticsearch client, interacting with Elasticsearch APIs 
-├── Program.cs # Main entry point for the application, including service registration and health checks 
-├── ElasticSearchSolution.csproj # Project file for building the solution 
-└── README.md---
 
 ## Core Components:
 
@@ -46,3 +26,19 @@ ElasticSearchSolution/
 4. **ILdapService.cs**:
    - Interface defining methods for establishing LDAP connections and sending LDAP search requests.
 
+```bash
+## Architecture Overview:
+
+### ActiveDirectioryCommunication
+ElasticSearchSolution/ 
+├── Controller/ 
+│ └── SimpleElasticTestController.cs # Contains API endpoints for indexing, retrieving, and searching documents in Elasticsearch 
+├── HealthTest/ 
+│ └── ElasticHealthCheck.cs # Health check for Elasticsearch connection 
+├── Utils/ 
+│ ├── Interfaces/ 
+│ │ └── IElasticsearchClient.cs # Interface defining methods for Elasticsearch operations 
+│ └── ElasticsearchClient.cs # Implementation of the Elasticsearch client, interacting with Elasticsearch APIs 
+├── Program.cs # Main entry point for the application, including service registration and health checks 
+├── ElasticSearchSolution.csproj # Project file for building the solution 
+└── README.md---
