@@ -1,5 +1,5 @@
-#project_description 
-#Project: Active Directory Communication via LDAP in C#
+# project_description 
+# Project: Active Directory Communication via LDAP in C#
 
 This project demonstrates how to interact with Active Directory (or other LDAP servers) using the LDAP 
 protocol in C#. It involves establishing connections, sending LDAP search requests, and extracting useful 
@@ -25,11 +25,10 @@ asynchronous programming to ensure that connections and queries do not block the
 
 4. **ILdapService.cs**:
    - Interface defining methods for establishing LDAP connections and sending LDAP search requests.
-
+   - 
+# Architecture Overview:
 ```bash
-## Architecture Overview:
-
-### ActiveDirectioryCommunication
+# ActiveDirectioryCommunication
 ElasticSearchSolution/ 
 ├── Controller/ 
 │ └── SimpleElasticTestController.cs # Contains API endpoints for indexing, retrieving, and searching documents in Elasticsearch 
