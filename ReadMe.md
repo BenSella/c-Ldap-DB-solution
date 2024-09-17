@@ -1,5 +1,7 @@
-project_description 
-Project: Active Directory Communication via LDAP in C#
+# In gitHub opne file using Code or Blame, not preview
+
+#project_description 
+#Project: Active Directory Communication via LDAP in C#
 
 This project demonstrates how to interact with Active Directory (or other LDAP servers) using the LDAP 
 protocol in C#. It involves establishing connections, sending LDAP search requests, and extracting useful 
